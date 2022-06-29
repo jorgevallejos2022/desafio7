@@ -1,0 +1,66 @@
+@import url(recursos/coolvetica\ rg\ \(2\).otf);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+body{
+    display: grid;
+    grid-template-columns: repeat(7,2fr);
+    grid-template-rows: repeat(5,2fr) ;
+    grid-template-areas: 
+    ". . . . . . ."
+    ". . div div div . ."
+    ". . div div div . ."
+    ". . div div div . ."
+    ". . . . . . ."
+    ;
+}
+#conteiner{
+    grid-area: div;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 150px;
+}
+
+h2, p, .coment{
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-size: 29px;
+    font-weight: 700;
+}
+.prim{
+    margin: auto;
+    width: 74%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+}
+.coment{
+    display: flex;
+    font-size: 21px;
+    font-weight: 400;
+    align-items: center;
+    margin-left: 70px;
+}
+.info{
+    width: 10%;
+}
+.ident{
+    width: 20%;
+}
+.ide{
+    margin-top: 40px;
+    width: 15%;
+}
+h1{
+    font-family: coolvetica;
+    font-size: 48px;
+    font-weight: 400;
+}
+.con{
+    background-color: #eff2ff;
+    border-radius: 15px;
+    box-shadow: 5px 5px;
+    text-align: center; 
+}

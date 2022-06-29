@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
+main{
+    display: grid;
+    grid-template-columns: repeat(8, 2fr);
+    grid-template-rows: repeat(5,2fr);
+    grid-template-areas: 
+    ". . . . . . . ."
+    ". . div div div div . ."
+    ". . div div div div . ."
+    ". . div div div div . ."
+    ". . . . . . . ."
+    ;
+}
+.conteiner{
+    grid-area: div;
+}
+
+h1, h3, p, button{
+    font-family: 'Mulish', sans-serif;
+}
+h3{
+    font-size: 40px;
+    font-weight: 400;
+    color: #0a2ff1;
+}
+h1{
+    font-size: 80px;
+    font-weight: 900;
+    color: #0a2ff1;
+    
+}
+p{
+    font-size: 26px;
+    font-weight: 400;
+    color: #04146c;
+}
+button{
+    width: 400px;
+    height: 70px;
+    font-size: 29px;
+    font-weight: 700;
+    color: white;
+    background-color:#0a2ff1;
+    border: none;
+}
